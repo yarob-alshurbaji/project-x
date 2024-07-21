@@ -6,6 +6,7 @@
 .parent {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-color: #777; */
@@ -13,4 +14,8 @@
 .parent h1 {
     font-size: 70px;
     color: violet;
+}
+.parent p {
+    font-size: 40px;
+    color: darkred;
 }
